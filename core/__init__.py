@@ -9,7 +9,7 @@ from structure.quest import Quest
 from settings.constants import TOKEN
 
 bot = telebot.TeleBot(TOKEN)
-quest = Quest()
+quest = Quest('quest_name_here')
 
 
 def create_app():
